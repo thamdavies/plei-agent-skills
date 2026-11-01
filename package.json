@@ -1,14 +1,15 @@
 {
-  "name": "plei-rails-codex",
+  "name": "plei-agent-skills",
   "version": "0.1.0",
-  "description": "Install the plei-rails Codex skill",
+  "description": "Install Plei agent skills into your Codex skills directory",
   "type": "module",
   "bin": {
-    "plei-rails": "bin/plei-rails.js"
+    "plei-agent-skills": "bin/plei-agent-skills.js"
   },
   "files": [
     "bin/",
     "skills/plei-rails/",
+    "skills/plei-git/",
     "README.md",
     "LICENSE",
     "NOTICE.md"
